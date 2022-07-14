@@ -1,6 +1,6 @@
 # Moon-Bomber
 
-#Установка
+# Установка
 1. Скачиваем Python 
 2. в консоль пишем pip install pyinstaller
 3. Открываем build.bat
